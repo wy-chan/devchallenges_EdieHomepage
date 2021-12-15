@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Recipe Page</h1>
+<h1 align="center">Edie Homepage</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://wy-chan.github.io/devchallenges_RecipePage">
+    <a href="https://wy-chan.github.io/devchallenges_EdieHomepage">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/wy-chan/devchallenges_RecipePage">
+    <a href="https://github.com/wy-chan/devchallenges_EdieHomepage">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
       Challenge
     </a>
   </h3>
@@ -37,11 +37,11 @@
 
 ## Overview
 
-<img src="images/screenshot0.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile0.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile1.png" alt="screenshot" height="800">
+<img src="images/screenshot0.png" alt="screenshot" height="1000">&nbsp;&nbsp;<img src="images/screenshot_mobile0.png" alt="screenshot" height="1000">
 
-See demo here: https://wy-chan.github.io/devchallenges_RecipePage/
+See demo here: https://wy-chan.github.io/devchallenges_EdieHomepage/
 
-I created a page based on the given design. This challenge helps me to learn more about checkbox and lists(ordered list/ unordered list).
+I created a page based on the given design.
 
 ### Built With
 
@@ -52,26 +52,12 @@ I created a page based on the given design. This challenge helps me to learn mor
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the following user stories:
 
-- [x] User story: This is a completed user stories
-- [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
+- [x] User story: I can see a page following the given design
+- [x] User story: I can see a page on mobile following the given design
+- [x] User story: I can go to certain locations by selecting links in navigation or footer
 
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/wy-chan/devchallenges_RecipePage
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
 
 ## Acknowledgements
 
