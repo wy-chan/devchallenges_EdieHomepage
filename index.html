@@ -7,15 +7,156 @@
     <link rel="icon" href="images/devchallenges.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <script src="script.js"></script>
   </head>
   
 <body>
+<header class="page-header">
+<nav id="navbar">
+<a class="top-button" onClick="reloadPage()">Edie</a>
+  
+  <div class="menu">
+  <button class="menu-btn" onClick="openMenu()"><span class="material-icons menu-icon">menu</span></button>
+    <div class="menu-content hidden-mobile">
+    <button class="menu-btn-close" onClick="closeMenu()"><span class="material-icons close-icon">close</span></button>
+    <ul class="menu-list">
+     <li class="nav-btn" id="Home-btn"><a  href="#Home" onClick="closeMenu()">Home</a></li>
+     <li class="nav-btn" id="Services-btn"><a  href="#Services" onClick="closeMenu()">Services</a></li>
+     <li class="nav-btn" id="Our-btn"><a href="#Our-Works" onClick="closeMenu()">Our Works</a></li>
+     <li class="nav-btn" id="Clients-btn"><a href="#Clients" onClick="closeMenu()">Clients</a></li>
+     <li class="nav-btn" id="Contact-btn"><a href="#Contact" onClick="closeMenu()">Contact</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+</header>
+
 <main>
+ <section id="Home">
+    <span>Unhappy with your website?</span>
+   <h1 class="title1">We create beautiful and fast web services</h1>
+   <img src="images/heroImage.jpg" class="photo-banner" alt="Edie">
+     <h1 class="title2">Story, emotion and purpose</h1>
+   <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+    
+   <form class="type-email">
+   <span>Want us to contact you?</span>
+     <div class="input-box">
+       <input type="text" placeholder="Email">
+       <button type="submit">Join</button>
+     </div>
+   </form>
+ </section>
+  
+ <section id="Services">
+    <h2>We offer high demand services</h2>
+   <div class="service-box">
+     <button class="service-box-item">
+       <span class="material-icons edit-icon">edit</span>
+       <h3>UI/UX Design</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+       <div class="start-btn">Get started</div>
+     </button>
+     <button class="service-box-item">
+        <span class="material-icons code-icon">code</span>
+        <h3>Front End</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+        <div class="start-btn">Get started</button>
+     </button>
+     <button class="service-box-item">
+        <span class="material-icons storage-icon">storage</span>
+        <h3>Back End</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+        <div class="start-btn">Get started</div>
+     </button>
+   </div>
+</section>
+  
+   <section id="Our-Works">
+      <h2>Good design means good business</h2>
+        <div class="our-box">
+          <button class="our-box-item box-left">
+            <img src="images/smarthome.jpg" class="our-box-photo" alt="Smart home dashboard">
+            <br>
+            <span>Full stack application</span>
+            <h4>Smart home dashboard</h4>
+         </button>
+          <button class="our-box-item box-right">
+            <img src="images/onboard.png" class="our-box-photo" alt="Onboard application">
+              <br>
+            <span>UX/UI design</span>
+            <h4>Onboard application</h4>
+         </button>
+          <button class="our-box-item box-left">
+            <img src="images/booking.png" class="our-box-photo" alt="Booking system">
+              <br>
+            <span>Mobile application</span>
+            <h4>Booking system</h4>
+         </button>
+          <button class="our-box-item box-right">
+            <img src="images/juice-product.png" class="our-box-photo" alt="Juice product homepage">
+              <br>
+            <span>Front End application</span>
+            <h4>Juice product homepage</h4>
+         </button>
+              <a>see more →</a>
+       </div>
+ 
+</section>
+  
+<section id="Team">
+<div class="team-text">
+<h5>Meet the team</h5>
+<h2>We are chilled and a laidback team</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+<div class="team-photo">
+  <img src="images/person3.png" class="team-photo-person person1" alt="person1">
+  <img src="images/person1.png" class="team-photo-person person2" alt="person2">
+  <img src="images/person2.png" class="team-photo-person person3" alt="person3">
+</div>
+</section>
+  
+<section id="Clients">
+  <h2>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    </h2>
+  <div class="client-profile">
+    <img src="images/person4.png" class="client-photo" alt="client1" class="client-photo">
+    <div class="client-text">
+      <h4 class="client-name">Carlos Tran</h4>
+      <span class="client-com">The Decorate Gatsby</span>
+    </div>
+  </div>
+</section>
 
 </main>
 
 
 <footer>
+<section id="Contact">
+ <ul class="menu-list">
+     <li class="nav-btn" id="home-btn"><a  href="#Home">Home</a></li>
+     <li class="nav-btn" id="Services-btn"><a  href="#Services">Services</a></li>
+     <li class="nav-btn" id="Our-btn"><a href="#Our-Works">Our Works</a></li>
+     <li class="nav-btn" id="Clients-btn"><a href="#Clients">Clients</a></li>
+     <li class="nav-btn" id="Contact-btn"><a href="#Contact">Contact</a></li>
+  </ul>
+  <div>
+    <a href="#Home" class="top-button" onClick="reloadPage()">Edie</a>
+    <br>
+    <img src="images/instagram.svg" class="sns-icon" alt="Instalgram">
+    <img src="images/linkedin.svg" class="sns-icon" alt="Linkedin">
+    <img src="images/twitter.svg" class="sns-icon" alt="Twitter">
+  </div>
+  <form class="type-email">
+   <span>Want us to contact you?</span>
+   <div class="input-box">
+       <input type="text" placeholder="Email">
+       <button type="submit">Join</button>
+     </div>
+   </form>
+</section>
+<div class="my-footer">
 <span>created by <em>wy-chan</em> - devChallenges.io</span>
+</div>
 </footer>
 </body>
