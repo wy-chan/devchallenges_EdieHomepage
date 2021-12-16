@@ -37,7 +37,9 @@
 
 ## Overview
 
-<img src="images/screenshot0.png" alt="screenshot" height="800">&nbsp;<img src="images/screenshot1.png" alt="screenshot" height="800">&nbsp;<img src="images/screenshot_mobile0.png" alt="screenshot" height="800">&nbsp;<img src="images/screenshot_mobile1.png" alt="screenshot" height="800">
+<img src="images/screenshot0.png" alt="screenshot" height="800">&nbsp;<img src="images/screenshot1.png" alt="screenshot" height="800">
+<br>
+<img src="images/screenshot_mobile0.png" alt="screenshot" height="800">&nbsp;<img src="images/screenshot_mobile1.png" alt="screenshot" height="800">
 
 See demo here: https://wy-chan.github.io/devchallenges_EdieHomepage/
 
