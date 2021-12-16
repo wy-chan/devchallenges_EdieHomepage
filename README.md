@@ -41,12 +41,13 @@
 
 See demo here: https://wy-chan.github.io/devchallenges_EdieHomepage/
 
-I created a page based on the given design.
+I created a page based on the given design. My skills in making the navigation bar is improved.
 
 ### Built With
 
 - HTML
-- CSS, flexbox
+- CSS
+- JavaScript
 
 ## Features
 
